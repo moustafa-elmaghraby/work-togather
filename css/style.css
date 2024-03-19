@@ -1,0 +1,109 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-ul ul li a{
+
+text-decoration: none;
+color: #fff;
+}
+
+
+
+.btn-1{
+    background-color: rgb(206, 33, 33);
+    padding: 10px 20px;
+    border-radius: 20px ;
+    text-transform: uppercase;
+    
+}
+
+.img-text{
+
+    margin: auto;
+    width: fit-content;
+    padding: 8px 13px;
+    border-radius: 20px;
+    position: absolute;
+     top: 10px;
+     right: 10px;
+    font-size: large;
+    font-weight: 800;
+}
+
+.img-text-1{
+
+    margin: auto;
+    width: fit-content;
+    padding:20px;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    bottom: -20px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.line-image h1::after{
+    content: "";
+   display: inline-block;
+    width: 220px;
+    background-color: #e93a3a;
+    height: 8px;
+    border-radius: 100% 0% 57% 43% / 51% 3% 97% 49%;
+
+
+}
+  
+
+ .text-deco a{
+    text-decoration: none;
+color: #fff;
+ }
+
+ .hover-ul li{
+ 
+    opacity: 0.9;
+    transition:  1s all ease;
+ }
+
+
+ .hover-ul li:hover{
+    border-bottom: #fff solid 1px ;
+
+ }
+ .navbar a{
+    color: #fff !important;
+ }
+
+
+
+
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+ }
+
+ @media screen and (max-width: 768px) {
+    .responsive-logo {
+     text-align: center;
+    }
+
+   .responsive-ul{
+
+    display: flex;
+    justify-content: center;
+    
+   }
+   .responsive-ul ul button{
+    display: block;
+   
+    
+
+   }
+
+  }
+  
