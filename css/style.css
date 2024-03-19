@@ -79,14 +79,12 @@ color: #fff;
     color: #fff !important;
  }
 
-
-
-
  ul li a{
     text-decoration: none;
     color: #fff;
  }
 
+ /*  logo center */
  @media screen and (max-width: 768px) {
     .responsive-logo {
      text-align: center;
@@ -98,12 +96,7 @@ color: #fff;
     justify-content: center;
     
    }
-   .responsive-ul ul button{
-    display: block;
-   
-    
-
-   }
+  
 
   }
   
