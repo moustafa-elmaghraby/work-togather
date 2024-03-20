@@ -5,14 +5,29 @@
     box-sizing: border-box;
 }
 
-.nav-ul ul li a{
 
-text-decoration: none;
-color: #fff;
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
 }
 
+.links-hover ul li a{
+    transition: all 1s ease;
+}
 
+.links-hover ul li a:hover{
+   border-radius: 20px;
+   background-color: #090979;
+   padding: 10px ;
+   opacity: 0.5;
+}
 
+.btn-block a{
+    text-decoration: none;
+    color: #fff;
+}
 .btn-1{
     background-color: rgb(206, 33, 33);
     padding: 10px 20px;
@@ -45,6 +60,7 @@ color: #fff;
     bottom: -20px;
     font-size: larger;
     font-weight: 800;
+    
 }
 
 .line-image h1::after{
@@ -52,12 +68,20 @@ color: #fff;
    display: inline-block;
     width: 220px;
     background-color: #e93a3a;
-    height: 8px;
-    border-radius: 100% 0% 57% 43% / 51% 3% 97% 49%;
+    height: 5px;
+    border-radius: 70% 40% 80% 50% / 51% 30% 50% 49%;
 
 
 }
+
   
+.main-image img{
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s 5 alternate both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s 5 alternate both;
+    
+}
 
  .text-deco a{
     text-decoration: none;
@@ -84,7 +108,11 @@ color: #fff;
     color: #fff;
  }
 
+
+
+
  /*  logo center */
+
  @media screen and (max-width: 768px) {
     .responsive-logo {
      text-align: center;
@@ -94,9 +122,51 @@ color: #fff;
 
     display: flex;
     justify-content: center;
+    padding: 20px 10px 0px 10px;
+    font-size: large;
+    font-weight: 600;
     
+   }
+
+
+
+   .btn-block{
+   position: absolute;
+   top: 40px;
+   right: 40px;
+   left: 40px;
+   font-size: larger;
+   font-weight: 600;
+   
+
+   }
+
+   .line-image{
+    padding-top: 20px;
    }
   
 
+  }
+  
+
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
   
