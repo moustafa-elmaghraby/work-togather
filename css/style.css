@@ -109,9 +109,27 @@ color: #fff;
  }
 
 
+ .hover-lg{
+    transition: all 300ms ease-in-out;
+ }
+
+.hover-lg:hover{
+    color: #0565B6 !important;
+    
+
+}
+
+.hover-lg button{
+    transition: all 300ms ease-in-out;
+
+}
+.hover-lg button:hover{
+    background-color: #0565B6 !important;
+    border: 1px solid #0565B6 ;
+}
 
 
- /*  logo center */
+ /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
     .responsive-logo {
@@ -144,10 +162,109 @@ color: #fff;
    .line-image{
     padding-top: 20px;
    }
-  
+
+   .hide-btn{
+    display: none;
+   }
+   .center-text{
+    text-align: center;
+   }
+   .padding-md{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border:  1px solid #0565B6 ;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    background: linear-gradient(322deg, rgb(140, 137, 221) 0%,  rgba(0,212,255,1) 100%);
+    
+
+    
+   }
+
+   .padding-md:hover{
+    color: #fff;
+   }
+
+   .padding-md img{
+    width: 100%;
+   }
+   .padding-md span{
+    color: #fff !important;
+    font-size: 20p;
+   }
+
+
 
   }
   
+
+  /*  Tablet responsive */
+
+  @media screen and (max-width: 868px) {
+    .responsive-logo {
+     text-align: center;
+    }
+
+   .responsive-ul{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 0px 10px;
+    font-size: large;
+    font-weight: 600;
+    
+   }
+
+
+
+   .btn-block{
+   position: absolute;
+   top: 40px;
+   right: 40px;
+   left: 40px;
+   font-size: larger;
+   font-weight: 600;
+   
+
+   }
+
+   .line-image{
+    padding-top: 20px;
+   }
+
+   .hide-btn{
+    display: none;
+   }
+   .center-text{
+    text-align: center;
+   }
+   .padding-md{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border:  1px solid #0565B6 ;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    background: linear-gradient(322deg, rgb(140, 137, 221) 0%,  rgba(0,212,255,1) 100%);
+    
+
+    
+   }
+
+   .padding-md:hover{
+    color: #fff;
+   }
+
+   .padding-md img{
+    width: 100%;
+   }
+   .padding-md span{
+    color: #fff !important;
+    font-size: 20p;
+   }
+
+
+
+  }
 
   @-webkit-keyframes scale-up-center {
     0% {
