@@ -6,7 +6,7 @@
 }
 
 
-body{
+.back-ground{
 
     background: rgb(2,0,36);
     background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
