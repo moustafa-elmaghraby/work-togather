@@ -165,6 +165,8 @@ color: #fff;
 .footer-bg a:hover{
     color: #0565B6;
 }
+
+
  /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
@@ -185,12 +187,10 @@ color: #fff;
 
 
    .btn-block{
-   position: absolute;
-   top: 40px;
-   right: 40px;
-   left: 40px;
-   font-size: larger;
-   font-weight: 600;
+   
+   
+   display: none;
+  
    
 
    }
@@ -258,12 +258,7 @@ color: #fff;
 
 
    .btn-block{
-   position: absolute;
-   top: 40px;
-   right: 40px;
-   left: 40px;
-   font-size: larger;
-   font-weight: 600;
+   display: none;
    
 
    }
