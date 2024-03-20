@@ -14,8 +14,13 @@
     border-radius: 0% 0% 12% 11% / 10% 10% 10% 10%  ;
 }
 .nav-background{
+<<<<<<< HEAD
     background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 2%, rgba(0,212,255,1) 100%);
     border-radius: 0% 0% 12% 11% / 10% 10% 10% 10%  ;
+=======
+    background: linear-gradient(322deg, #06449F 0%,  rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+>>>>>>> 7f5510d (test)
     background-repeat: no-repeat;
    
     
@@ -143,6 +148,7 @@ color: #fff;
 }
 
 
+<<<<<<< HEAD
 .no-shadow input{
 
     border-radius: 1px;
@@ -167,6 +173,8 @@ color: #fff;
 }
 
 
+=======
+>>>>>>> 7f5510d (test)
  /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
@@ -187,10 +195,19 @@ color: #fff;
 
 
    .btn-block{
+<<<<<<< HEAD
    
    
    display: none;
   
+=======
+   position: absolute;
+   top: 40px;
+   right: 40px;
+   left: 40px;
+   font-size: larger;
+   font-weight: 600;
+>>>>>>> 7f5510d (test)
    
 
    }
@@ -258,7 +275,16 @@ color: #fff;
 
 
    .btn-block{
+<<<<<<< HEAD
    display: none;
+=======
+   position: absolute;
+   top: 40px;
+   right: 40px;
+   left: 40px;
+   font-size: larger;
+   font-weight: 600;
+>>>>>>> 7f5510d (test)
    
 
    }
@@ -304,7 +330,122 @@ color: #fff;
 
 
   }
+<<<<<<< HEAD
 
+=======
+  #fet{
+    .item{
+        box-shadow: rgba(29, 1, 1, 0.795) 0px 0px 15px !important;
+        background-color: black;
+        border-radius: 10%;
+        text-align: center;
+        padding: 10px;
+        
+        .icon{
+          
+            a{
+                font-size: 45px;
+                border-radius: 50%;
+                background-color: #0565B6;
+                color: white;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                line-height: 90px;
+                display: inline-block;
+                margin-top: 8px;
+                transition: 0.5s ease-in-out all;
+                &:hover{
+                    background-color:#e93a3a;
+                    color: darkgray;
+                }
+
+            }
+            h4{
+                font-size: 25px;
+                margin-top: 8px;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+         
+        }
+    }
+  }
+  .btns{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: ease-in-out all 1s ;
+    background-color: rgb(152, 29, 30);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+        background-color:#0565B6 ;
+        color: white;
+        
+    }
+
+
+  }
+#offers{
+    border-radius: 8%;
+    .item{
+        background-color: rgba(0, 0, 0, 0.705);
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+
+    .thump{
+        border-radius: 25px;
+    }
+    img{
+        width: 100% !important;
+    }
+    .img-text{
+        background-color: #0565B6;
+        color: #fff;
+      
+  
+        background-color: #0565B6;
+        font-size: 17px;
+        font-weight: bold;
+        padding:  ;
+      
+    }
+    .down-cont{
+        padding: 26px;
+        span{
+            color: blanchedalmond;
+            font-size: 15px;
+            margin-bottom: 5px;
+            
+        }
+        .conz{
+            a{
+                font-size: 20px;
+                border-radius: 50%;
+                background-color: #e93a3a;
+                color: white;
+                width: 38px;
+                height: 38px;
+                text-align: center;
+                line-height: 35px;
+                display: inline-block;
+                margin-top: ;
+                transition: 0.5s ease-in-out all;
+                &:hover{
+                    background-color:#0565B6;
+                    color: rgb(169, 169, 169);
+                }  
+            }
+        }
+    }
+}
+>>>>>>> 7f5510d (test)
 
  /* main photo animation */
   @-webkit-keyframes scale-up-center {
