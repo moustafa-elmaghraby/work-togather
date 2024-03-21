@@ -14,13 +14,10 @@
     border-radius: 0% 0% 12% 11% / 10% 10% 10% 10%  ;
 }
 .nav-background{
-<<<<<<< HEAD
     background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 2%, rgba(0,212,255,1) 100%);
     border-radius: 0% 0% 12% 11% / 10% 10% 10% 10%  ;
-=======
     background: linear-gradient(322deg, #06449F 0%,  rgba(0,212,255,1) 100%);
     border-radius: 10px;
->>>>>>> 7f5510d (test)
     background-repeat: no-repeat;
    
     
@@ -148,7 +145,6 @@ color: #fff;
 }
 
 
-<<<<<<< HEAD
 .no-shadow input{
 
     border-radius: 1px;
@@ -173,8 +169,6 @@ color: #fff;
 }
 
 
-=======
->>>>>>> 7f5510d (test)
  /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
@@ -195,19 +189,7 @@ color: #fff;
 
 
    .btn-block{
-<<<<<<< HEAD
-   
-   
-   display: none;
-  
-=======
-   position: absolute;
-   top: 40px;
-   right: 40px;
-   left: 40px;
-   font-size: larger;
-   font-weight: 600;
->>>>>>> 7f5510d (test)
+  display: none;
    
 
    }
@@ -257,9 +239,9 @@ color: #fff;
 
   /*  Tablet responsive */
 
-  @media screen and (max-width: 868px) {
+  @media screen and (max-width: 768px) {
     .responsive-logo {
-     text-align: center;
+     text-align: start;
     }
 
    .responsive-ul{
@@ -275,16 +257,10 @@ color: #fff;
 
 
    .btn-block{
-<<<<<<< HEAD
+   
+   
    display: none;
-=======
-   position: absolute;
-   top: 40px;
-   right: 40px;
-   left: 40px;
-   font-size: larger;
-   font-weight: 600;
->>>>>>> 7f5510d (test)
+  
    
 
    }
@@ -324,19 +300,16 @@ color: #fff;
    }
 
    .top-cat-pd{
-    width: 95%;
-      margin-top: 30px;
-    }
+   width: 95%;
+     margin-top: 30px;
+   }
 
 
   }
-<<<<<<< HEAD
-
-=======
   #fet{
     .item{
         box-shadow: rgba(29, 1, 1, 0.795) 0px 0px 15px !important;
-        background-color: black;
+        background-color: rgb(231, 231, 231);
         border-radius: 10%;
         text-align: center;
         padding: 10px;
@@ -445,7 +418,6 @@ color: #fff;
         }
     }
 }
->>>>>>> 7f5510d (test)
 
  /* main photo animation */
   @-webkit-keyframes scale-up-center {
