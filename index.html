@@ -21,8 +21,8 @@
 
             <nav class="row navbar navbar-expand-lg            align-items-lg-center px-5 mb-4 position-fixed top-0 end-0 start-0  z-3 nav-background">
                     
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon toggle-pos"></span>
                   </button>
 
                 <div class="col-lg-2 col-md-12 d-md-block  responsive-logo ">
@@ -34,14 +34,16 @@
 
                 <div class="col-lg-10 col-md-12 responsive-ul links-hover ">
 
-                    <ul class="list-unstyled navbar-nav  d-flex  gap-5 align-items-center justify-content-end position-relative">
-                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <ul class="list-unstyled navbar-nav  d-flex  gap-5 align-items-center justify-content-end position-relative fs-5 fw-semibold">
+                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="" class="nav-link"> Our Shop</a></li>
                         <li class="nav-item"><a href="" class="nav-link"> Product Details</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
                         <li class="nav-item d-lg-none"> <a href="" class="nav-link">Sign in</a></li>
                              
-                        <button class="btn btn-danger btn-block fw-bold btn-1 "><a href="" > SIGN IN</a></button>
+                        <div class="hover-lg"> 
+                            <button class="btn btn-danger btn-block fw-bold btn-1  "><a href="" > SIGN IN</a></button>
+                        </div>
                     
 
                     </ul>
@@ -60,12 +62,10 @@
 
                 <div class="info col-lg-5 text-light line-image ps-5  ">
                     <h5 class="fw-bold fs-3">WELCOM TO LUGX</h5>
-                    <div class="position-relative">
-                        <h1 class="fw-bold">BEST GAMING SITE EVER!</h1>
+                    <div class="">
+                        <h1 class="fw-bold pe-2">BEST GAMING SITE EVER!</h1>
                     </div>
-
-
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem vel accusantium impedit
+                    <p class="pe-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem vel accusantium impedit
                         magnam consectetur? Aliquam quia dolor ipsa molestiae! Aliquam mollitia in sint laudantium
                         dolorem distinctio, necessitatibus saepe voluptatibus culpa.</p>
                     <div class="position-relative">
@@ -73,8 +73,9 @@
                             <input class="form-control rounded-5 " type="search" name="" id=""
                                 placeholder="type somthing  ">
                         </form>
-
-                        <button class="btn btn-danger rounded-5 position-absolute top-0 end-0"> SEARCH NOW</button>
+                              <div class="hover-lg">
+                        <button class="btn btn-danger rounded-5 position-absolute top-0 end-0 fw-bold"> SEARCH NOW</button>
+                    </div>
                     </div>
 
                 </div>
@@ -109,7 +110,7 @@
         <section id="fet" >
             <div class="container">
                 <div class="row pb-1">
-                    <div class="col-lg col-md-12  rounded-2">
+                    <div class="col-lg col-md-6  rounded-2">
                         <div class="item">
                             <div class="icon">
                                 <a href="#"><i class="fa-solid fa-cloud-arrow-up"></i></a>
@@ -159,8 +160,8 @@
                   <h1>Trending Games</h1>
                   
               </div>
-              <div class="">
-                <button class="btn btn-danger px-4 rounded-5 fw-bold hide-btn">View All</button>
+              <div class="hover-lg">
+                <button class="btn btn-danger px-4 rounded-5 fw-bold hide-btn text-uppercase">View All</button>
               </div>  
           
           </div>
@@ -254,7 +255,7 @@
             </div>
 
 
-            <div class="col-lg-2 hide-btn ">
+            <div class="col-lg-2 hide-btn hover-lg ">
                 <button class="btn btn-danger rounded-5 px-4 fw-bold">VIEW ALL</button>
             </div>
 
@@ -376,14 +377,19 @@
  </section>
 
 <!-- End of Top Categories section -->
-      <footer>
-         <div class="footer-bg py-5 text-center text-info">
-            <span>Copyright © 2048 LUGX Gaming Company. All rights reserved.   </span>
-            <a href="" > Design by: M&Y</a>
+      <footer class="footer-bg py-5 text-center text-info">
+        <div>
+                
+            <a href="#"><i class="fa-solid fa-circle-arrow-up fa-2x"></i> </a>
+            <p class="fw-bold">Back To Top</p>
+         </div>
+         <div  class="py-3">
+            <span class="fw-bold">Copyright © 2048 LUGX Gaming Company. All rights reserved.   </span>
+            <a href="" class="fs-5 fw-bold"> Design by: M&Y</a>
 
 
          </div>
-
+          
       </footer>
       <script src="js/all.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
