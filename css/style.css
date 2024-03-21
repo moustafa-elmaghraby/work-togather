@@ -168,6 +168,11 @@ color: #fff;
     color: #0565B6;
 }
 
+.ternd-bg{
+
+    background-color: #CFF4FC;
+}
+
 
  /*  Mobile Responsive */
 
@@ -175,6 +180,7 @@ color: #fff;
     .responsive-logo {
      text-align: start;
     }
+
 
    .responsive-ul{
 
@@ -186,7 +192,13 @@ color: #fff;
     
    }
 
+   #fet .item{
+    text-align: center;
+  margin: 0px 10px !important;
+  height: 90%;
+  border-radius: 5% 5% 12% 11%   !important;
 
+   }
 
    .btn-block{
   display: none;
@@ -309,7 +321,7 @@ color: #fff;
   #fet{
     .item{
         box-shadow: rgba(29, 1, 1, 0.795) 0px 0px 15px !important;
-        background-color: rgb(231, 231, 231);
+        background-color: rgb(255, 255, 255);
         border-radius: 10%;
         text-align: center;
         padding: 10px;
@@ -320,7 +332,7 @@ color: #fff;
                 font-size: 45px;
                 border-radius: 50%;
                 background-color: #0565B6;
-                color: white;
+                color: rgb(255, 255, 255);
                 width: 100px;
                 height: 100px;
                 text-align: center;
@@ -330,14 +342,14 @@ color: #fff;
                 transition: 0.5s ease-in-out all;
                 &:hover{
                     background-color:#e93a3a;
-                    color: darkgray;
+                    color: rgb(255, 255, 255);
                 }
 
             }
             h4{
                 font-size: 25px;
                 margin-top: 8px;
-                color: white;
+                color: rgb(49, 49, 49);
                 font-weight: bold;
                 text-transform: uppercase;
             }
