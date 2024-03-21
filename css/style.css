@@ -173,7 +173,7 @@ color: #fff;
 
  @media screen and (max-width: 768px) {
     .responsive-logo {
-     text-align: center;
+     text-align: start;
     }
 
    .responsive-ul{
