@@ -181,6 +181,22 @@ color: #fff;
     content: " >";
 }
 
+.left-shop-banner{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+    padding: 50px 0px;
+    margin-bottom: 20px;
+   
+}
+
+.right-shop-banner{
+    position: absolute;
+    right: 30px;
+    top: 25%;
+    padding: 50px 0px;
+   
+}
 
  /*  Mobile Responsive */
 
@@ -252,8 +268,43 @@ color: #fff;
    width: 95%;
      margin-top: 30px;
    }
+   .top-cat-pd-1{
+    width: 95%;
+      
+    }
+
+   .hide-image-banner-last{
+    display: none;
+   }
+
+   .re-padding-marrgin{
+    position: relative;
+    padding: 10px !important;
+    margin: 10px;
+    left: 0;
+   }
 
 
+.right-shop-banner{
+    position: relative;
+    left: 0;
+    padding: 30px 10px!important;
+  
+   
+}
+
+
+.left-shop-banner{
+ position: relative;
+
+
+}
+
+.re-possing-btn{
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+}
   }
 
 
@@ -283,14 +334,8 @@ color: #fff;
 
    }
 
-
    .btn-block{
-   
-   
    display: none;
-  
-   
-
    }
 
    .line-image{
@@ -311,8 +356,6 @@ color: #fff;
     margin-bottom: 10px;
     background: linear-gradient(322deg, rgb(140, 137, 221) 0%,  rgba(0,212,255,1) 100%);
     
-
-    
    }
 
    .padding-md:hover{
@@ -332,6 +375,46 @@ color: #fff;
      margin-top: 30px;
    }
 
+   .top-cat-pd-1{
+    width: 95%;
+      
+    }
+
+
+
+   .re-padding-marrgin{
+    position: relative;
+    padding: 10px !important;
+    margin: 10px;
+    left: 0;
+
+   }
+
+
+.right-shop-banner{
+    position: relative;
+    padding: 30px 10px!important;
+    left: 0;
+  
+   
+}
+
+
+.hide-image-banner-last{
+    display: none;
+}
+
+.left-shop-banner{
+    position: relative;
+   
+   
+   }
+   
+   .re-possing-btn{
+       position: absolute;
+       bottom: 0;
+       right: 12px;
+   }
 
   }
 
