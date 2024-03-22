@@ -23,6 +23,15 @@
     
 }
 
+.back-ground-1{
+    background: rgb(2,0,36);
+    background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+   
+
+}
+
+
 .links-hover ul li a{
     transition: all 0.8s ease-in-out;
 
@@ -155,23 +164,43 @@ color: #fff;
     box-shadow: #fcfcfc;
 }
 
-.footer-bg{
+/* .footer-bg{
     border-radius: 40% 40% 0% 0%  ;
     background: rgb(2,0,36);
     background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
     background-repeat: no-repeat;
+} */
+
+.footer-bg-1{
+   
+    background: rgb(14, 72, 233);
+    background-repeat: no-repeat;
+    color: #fff !important;
 }
- .footer-bg a{
-    color: #fcfcfc;
+
+
+ .footer-bg-1 a{
+    color: #000000b0 !important;
     text-decoration: none;
     transition: 0.6s all ease-in-out;
     
 }
 
-.footer-bg a:hover{
-    color: rgba(0,212,255,1);
+.footer-bg-1 a:hover{
+    color: rgb(253, 253, 253) !important;
 }
 
+
+.social-media a{
+    padding-left: 10px;
+    color: #030236 !important;
+    transition: all 0.8s ease-in-out !important;
+}
+
+.social-media a :hover{
+   
+    color: #fff !important;
+}
 .ternd-bg{
 
     background-color: #CFF4FC;
@@ -305,6 +334,13 @@ color: #fff;
     bottom: 0;
     right: 12px;
 }
+
+.box-width {
+    width: 100% !important;
+   
+
+    
+}
   }
 
 
@@ -414,6 +450,15 @@ color: #fff;
        position: absolute;
        bottom: 0;
        right: 12px;
+   }
+
+   .tablet-hight{
+    padding-bottom:50px!important;
+    
+   }
+   .tablet-footer-login-page {
+    margin-bottom: 0px !important;
+    height: 30vh;
    }
 
   }
