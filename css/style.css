@@ -23,14 +23,27 @@
     
 }
 
+.back-ground-1{
+    background: rgb(2,0,36);
+    background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+   
+
+}
+
+
 .links-hover ul li a{
-    transition: all 1s ease;
+    transition: all 0.8s ease-in-out;
+
+  
+    
 }
 
 .links-hover ul li a:hover{
-   border-radius: 20px;
+   border-radius: 10px;
    background-color: rgb(9, 9, 121);
-   padding: 10px ;
+   color: #ffffff !important;
+   border-bottom: 2px double #090979;
    opacity: 0.5;
 }
 
@@ -120,7 +133,7 @@ color: #fff;
 
 
  .hover-lg{
-    transition: all 300ms ease-in-out;
+    transition: 0.6s all ease-in-out;
  }
 
 .hover-lg:hover{
@@ -130,7 +143,7 @@ color: #fff;
 }
 
 .hover-lg button{
-    transition: all 300ms ease-in-out;
+    transition: 0.6s all ease-in-out;
 
 }
 .hover-lg button:hover{
@@ -151,30 +164,76 @@ color: #fff;
     box-shadow: #fcfcfc;
 }
 
-.footer-bg{
+/* .footer-bg{
     border-radius: 40% 40% 0% 0%  ;
     background: rgb(2,0,36);
     background: linear-gradient(322deg, rgba(2,0,36,1) 0%, #090979 27%, rgba(0,212,255,1) 100%);
     background-repeat: no-repeat;
+} */
+
+.footer-bg-1{
+   
+    background: rgb(14, 72, 233);
+    background-repeat: no-repeat;
+    color: #fff !important;
 }
- .footer-bg a{
-    color: #fcfcfc;
+
+
+ .footer-bg-1 a{
+    color: #000000b0 !important;
     text-decoration: none;
-    transition: 300ms all ease-in-out;
+    transition: 0.6s all ease-in-out;
     
 }
 
-.footer-bg a:hover{
-    color: #0565B6;
+.footer-bg-1 a:hover{
+    color: rgb(253, 253, 253) !important;
 }
 
+
+.social-media a{
+    padding-left: 10px;
+    color: #030236 !important;
+    transition: all 0.8s ease-in-out !important;
+}
+
+.social-media a :hover{
+   
+    color: #fff !important;
+}
+.ternd-bg{
+
+    background-color: #CFF4FC;
+}
+
+.bracket span a::after{
+    content: " >";
+}
+
+.left-shop-banner{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+    padding: 50px 0px;
+    margin-bottom: 20px;
+   
+}
+
+.right-shop-banner{
+    position: absolute;
+    right: 30px;
+    top: 25%;
+    padding: 50px 0px;
+   
+}
 
  /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
     .responsive-logo {
-     text-align: center;
+     text-align: start;
     }
+
 
    .responsive-ul{
 
@@ -186,7 +245,13 @@ color: #fff;
     
    }
 
+   #fet .item{
+    text-align: center;
+  margin: 0px 10px !important;
+  height: 90%;
+  border-radius: 5% 5% 12% 11%   !important;
 
+   }
 
    .btn-block{
   display: none;
@@ -232,16 +297,59 @@ color: #fff;
    width: 95%;
      margin-top: 30px;
    }
+   .top-cat-pd-1{
+    width: 95%;
+      
+    }
+
+   .hide-image-banner-last{
+    display: none;
+   }
+
+   .re-padding-marrgin{
+    position: relative;
+    padding: 10px !important;
+    margin: 10px;
+    left: 0;
+   }
 
 
+.right-shop-banner{
+    position: relative;
+    left: 0;
+    padding: 30px 10px!important;
+  
+   
+}
+
+
+.left-shop-banner{
+ position: relative;
+
+
+}
+
+.re-possing-btn{
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+}
+
+.box-width {
+    width: 100% !important;
+   
+
+    
+}
   }
 
 
   /*  Tablet responsive */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 868px) {
     .responsive-logo {
-     text-align: start;
+     text-align: center;
+    
     }
 
    .responsive-ul{
@@ -254,15 +362,16 @@ color: #fff;
     
    }
 
+   #fet .item{
+    text-align: center;
+  margin: 0px 10px !important;
+  height: 90%;
+  border-radius: 5% 5% 12% 11%   !important;
 
+   }
 
    .btn-block{
-   
-   
    display: none;
-  
-   
-
    }
 
    .line-image{
@@ -283,8 +392,6 @@ color: #fff;
     margin-bottom: 10px;
     background: linear-gradient(322deg, rgb(140, 137, 221) 0%,  rgba(0,212,255,1) 100%);
     
-
-    
    }
 
    .padding-md:hover{
@@ -304,12 +411,64 @@ color: #fff;
      margin-top: 30px;
    }
 
+   .top-cat-pd-1{
+    width: 95%;
+      
+    }
+
+
+
+   .re-padding-marrgin{
+    position: relative;
+    padding: 10px !important;
+    margin: 10px;
+    left: 0;
+
+   }
+
+
+.right-shop-banner{
+    position: relative;
+    padding: 30px 10px!important;
+    left: 0;
+  
+   
+}
+
+
+.hide-image-banner-last{
+    display: none;
+}
+
+.left-shop-banner{
+    position: relative;
+   
+   
+   }
+   
+   .re-possing-btn{
+       position: absolute;
+       bottom: 0;
+       right: 12px;
+   }
+
+   .tablet-hight{
+    padding-bottom:50px!important;
+    
+   }
+   .tablet-footer-login-page {
+    margin-bottom: 0px !important;
+    height: 30vh;
+   }
 
   }
+
+
+
   #fet{
     .item{
         box-shadow: rgba(29, 1, 1, 0.795) 0px 0px 15px !important;
-        background-color: rgb(231, 231, 231);
+        background-color: rgb(255, 255, 255);
         border-radius: 10%;
         text-align: center;
         padding: 10px;
@@ -320,7 +479,7 @@ color: #fff;
                 font-size: 45px;
                 border-radius: 50%;
                 background-color: #0565B6;
-                color: white;
+                color: rgb(255, 255, 255);
                 width: 100px;
                 height: 100px;
                 text-align: center;
@@ -330,14 +489,14 @@ color: #fff;
                 transition: 0.5s ease-in-out all;
                 &:hover{
                     background-color:#e93a3a;
-                    color: darkgray;
+                    color: rgb(255, 255, 255);
                 }
 
             }
             h4{
                 font-size: 25px;
                 margin-top: 8px;
-                color: white;
+                color: rgb(49, 49, 49);
                 font-weight: bold;
                 text-transform: uppercase;
             }
@@ -386,7 +545,7 @@ color: #fff;
         background-color: #0565B6;
         font-size: 17px;
         font-weight: bold;
-        padding:  ;
+         
       
     }
     .down-cont{
@@ -408,7 +567,7 @@ color: #fff;
                 text-align: center;
                 line-height: 35px;
                 display: inline-block;
-                margin-top: ;
+                
                 transition: 0.5s ease-in-out all;
                 &:hover{
                     background-color:#0565B6;
