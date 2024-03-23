@@ -227,6 +227,13 @@ color: #fff;
    
 }
 
+.custom-input{
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+
  /*  Mobile Responsive */
 
  @media screen and (max-width: 768px) {
