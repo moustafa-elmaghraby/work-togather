@@ -584,6 +584,14 @@ color: #fff;
         }
     }
 }
+#descreption{
+    p{
+        max-width: 90% !important;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
 
  /* main photo animation */
   @-webkit-keyframes scale-up-center {
@@ -605,4 +613,4 @@ color: #fff;
       -webkit-transform: scale(1);
               transform: scale(1);
     }
-  }
+  }7
